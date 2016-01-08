@@ -32,7 +32,7 @@
             <configuration>
                 <basedir>./</basedir>
                 <includes>*</includes>
-                <message>test</message>
+                <message>testing</message>
             </configuration>
          </execution>
         </executions>
