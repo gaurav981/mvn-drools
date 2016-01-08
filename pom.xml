@@ -31,7 +31,7 @@
             </goals>
             <configuration>
                 <basedir>./</basedir>
-                <includes>*</includes>
+                <includes>./*,./project/*</includes>
                 <message>testing</message>
             </configuration>
          </execution>
