@@ -11,13 +11,6 @@
     <connection>scm:git:https://github.com/gaurav981/mvn-drools</connection>
     <developerConnection>scm:git:https://github.com/gaurav981/mvn-drools</developerConnection>
   </scm>
-  <repositories>
-    <repository>
-      <id>guvnor-m2-repo</id>
-      <name>Guvnor M2 Repo</name>
-      <url>http://localhost/maven2/</url>
-    </repository>
-  </repositories>
   <build>
     <plugins>
       <plugin>
