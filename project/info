@@ -1,0 +1,3 @@
+Create a directory.
+cp pom.xml to that directory.
+and execute mvn verify from that directory itself.
