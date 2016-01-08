@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mortgages</groupId>
+  <artifactId>mortgages</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging> 
+  <scm>
+    <url>https://github.com/gaurav981/mvndrools</url>
+    <connection>scm:git:https://github.com/gaurav981/mvndrools</connection>
+    <developerConnection>scm:git:https://github.com/gaurav981/mvndrools</developerConnection>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>mavenscmplugin</artifactId>
+            <version>1.9.4</version>
+        <configuration>
+          <username>gaurav981</username>
+          <password>Gaur9811</password>
+          <basedir>./</basedir>
+        </configuration>
+        <executions>
+          <execution>
+            <id>performcheckin</id>
+                <phase>generatesources</phase>
+            <goals>
+                <goal>checkin</goal>
+            </goals>
+            <configuration>
+                <basedir>./</basedir>
+                <includes>*</includes>
+                <message>testing</message>
+            </configuration>
+         </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

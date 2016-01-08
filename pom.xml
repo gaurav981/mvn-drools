@@ -27,7 +27,6 @@
             <id>perform-checkin</id>
                 <phase>generate-sources</phase>
             <goals>
-		<goal>add</goal>
                 <goal>checkin</goal>
             </goals>
             <configuration>
