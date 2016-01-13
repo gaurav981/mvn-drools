@@ -23,7 +23,18 @@
           <basedir>./</basedir>
         </configuration>
         <executions>
-          <execution>
+	 <execution>
+            <id>perform-add</id>
+                <phase>initialize</phase>
+            <goals>
+		<goal>status</goal>
+            </goals>
+            <configuration>
+                <basedir>./</basedir>
+                <includes>./*</includes>
+            </configuration>
+         </execution>
+         <execution>
             <id>perform-checkin</id>
                 <phase>generate-sources</phase>
             <goals>
