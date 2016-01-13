@@ -39,7 +39,7 @@
                 <phase>initialize</phase>
             <configuration>
                 <basedir>./</basedir>
-		<includes>*.java</includes>
+		<includes>*</includes>
 		<workingDirectory>./</workingDirectory>
             </configuration>
             <goals>
