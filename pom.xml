@@ -27,7 +27,7 @@
             <id>perform-checkin</id>
                 <phase>generate-sources</phase>
             <goals>
-                <goal>checkin</goal>
+		<goal>checkin</goal>
             </goals>
             <configuration>
                 <basedir>./</basedir>
