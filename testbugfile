@@ -89,7 +89,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
   <connectionUrl default-value="${project.scm.connection}">${connectionUrl}</connectionUrl>
   <developerConnectionUrl default-value="${project.scm.developerConnection}">${developerConnectionUrl}</developerConnectionUrl>
   <excludes>${excludes}</excludes>
-  <includes>*</includes>
+  <includes>*,./project/*</includes>
   <passphrase>${passphrase}</passphrase>
   <password>Gaur9811</password>
   <privateKey>${privateKey}</privateKey>
@@ -109,7 +109,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
   <connectionUrl default-value="${project.scm.connection}">${connectionUrl}</connectionUrl>
   <developerConnectionUrl default-value="${project.scm.developerConnection}">${developerConnectionUrl}</developerConnectionUrl>
   <excludes>${excludes}</excludes>
-  <includes>./*,./project/*</includes>
+  <includes>*,./project/*</includes>
   <message>testing</message>
   <passphrase>${passphrase}</passphrase>
   <password>Gaur9811</password>
@@ -463,7 +463,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [DEBUG]   (s) includes = ./*
 [DEBUG]   (f) password = Gaur9811
 [DEBUG]   (f) pushChanges = true
-[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@3e10dc6
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@7e22550a
 [DEBUG]   (f) skipCheckoutIfExists = false
 [DEBUG]   (f) useExport = false
 [DEBUG]   (f) username = gaurav981
@@ -473,8 +473,8 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [INFO] Working directory: /home/gaurav/repos/mvn-drools/target
 [INFO] Executing: /bin/sh -c cd /tmp && git ls-remote https://gaurav981:********@github.com/gaurav981/mvn-drools
 [INFO] Working directory: /tmp
-[DEBUG] 263cfcb405febab1e6cbbcb08c15e348028b3dc9	HEAD
-[DEBUG] 263cfcb405febab1e6cbbcb08c15e348028b3dc9	refs/heads/master
+[DEBUG] 478bdf503e0ccc4f5a5a0e2634143a4ea39b1a80	HEAD
+[DEBUG] 478bdf503e0ccc4f5a5a0e2634143a4ea39b1a80	refs/heads/master
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools/target/checkout && git pull https://gaurav981:********@github.com/gaurav981/mvn-drools master
 [INFO] Working directory: /home/gaurav/repos/mvn-drools/target/checkout
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools/target/checkout && git checkout
@@ -488,6 +488,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [DEBUG] pom_update.xml
 [DEBUG] project/info
 [DEBUG] project/pom.xml
+[DEBUG] testbugfile
 [DEBUG] testfile
 [INFO] 
 [INFO] --- maven-scm-plugin:1.9.4:add (perform-add) @ mortgages ---
@@ -497,21 +498,22 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [DEBUG]   (f) connectionType = connection
 [DEBUG]   (s) connectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
 [DEBUG]   (f) developerConnectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
-[DEBUG]   (s) includes = *
+[DEBUG]   (s) includes = *,./project/*
 [DEBUG]   (f) password = Gaur9811
 [DEBUG]   (f) pushChanges = true
-[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@3e10dc6
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@7e22550a
 [DEBUG]   (f) username = gaurav981
 [DEBUG]   (s) workingDirectory = /home/gaurav/repos/mvn-drools
 [DEBUG] -- end configuration --
-[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git add -- README.md file.java pom_update.xml testbugfile pom.xml testfile file
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git add -- README.md file.java pom_update.xml testbugfile 0001-testing.patch pom.xml testfile file
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git rev-parse --show-toplevel
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git status --porcelain .
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
+[DEBUG] A  0001-testing.patch
 [DEBUG] M  pom.xml
-[DEBUG] AM testbugfile
+[DEBUG] MM testbugfile
 [DEBUG] ?? pom.xml~
 [WARNING] Ignoring unrecognized line: ?? pom.xml~
 [DEBUG] ?? project/file_info
@@ -520,7 +522,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [WARNING] Ignoring unrecognized line: ?? project/target/
 [DEBUG] ?? target/
 [WARNING] Ignoring unrecognized line: ?? target/
-[INFO] 2 files successfully added.
+[INFO] 3 files successfully added.
 [INFO] 
 [INFO] --- maven-scm-plugin:1.9.4:checkin (perform-checkin) @ mortgages ---
 [DEBUG] Configuring mojo org.apache.maven.plugins:maven-scm-plugin:1.9.4:checkin from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-scm-plugin:1.9.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
@@ -529,19 +531,22 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [DEBUG]   (f) connectionType = developerConnection
 [DEBUG]   (s) connectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
 [DEBUG]   (f) developerConnectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
-[DEBUG]   (s) includes = ./*,./project/*
+[DEBUG]   (s) includes = *,./project/*
 [DEBUG]   (f) message = testing
 [DEBUG]   (f) password = Gaur9811
 [DEBUG]   (f) pushChanges = true
-[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@3e10dc6
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@7e22550a
 [DEBUG]   (f) username = gaurav981
 [DEBUG] -- end configuration --
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git add -- README.md file.java pom_update.xml testbugfile 0001-testing.patch pom.xml testfile file
+[INFO] Working directory: /home/gaurav/repos/mvn-drools
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git rev-parse --show-toplevel
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git status --porcelain .
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
+[DEBUG] A  0001-testing.patch
 [DEBUG] M  pom.xml
-[DEBUG] AM testbugfile
+[DEBUG] MM testbugfile
 [DEBUG] ?? pom.xml~
 [WARNING] Ignoring unrecognized line: ?? pom.xml~
 [DEBUG] ?? project/file_info
@@ -550,5 +555,5 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [WARNING] Ignoring unrecognized line: ?? project/target/
 [DEBUG] ?? target/
 [WARNING] Ignoring unrecognized line: ?? target/
-[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git commit --verbose -F /tmp/maven-scm-1456362605.commit -a
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git commit --verbose -F /tmp/maven-scm-727549118.commit README.md file.java pom_update.xml testbugfile 0001-testing.patch pom.xml testfile file
 [INFO] Working directory: /home/gaurav/repos/mvn-drools

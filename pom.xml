@@ -39,7 +39,7 @@
                 <phase>initialize</phase>
             <configuration>
                 <basedir>./</basedir>
-		<includes>*</includes>
+		<includes>*,./project/*</includes>
 		<workingDirectory>./</workingDirectory>
             </configuration>
             <goals>
@@ -54,7 +54,7 @@
             </goals>
             <configuration>
                 <basedir>./</basedir>
-                <includes>./*,./project/*</includes>
+                <includes>*,./project/*</includes>
                 <message>testing</message>
             </configuration>
          </execution>
