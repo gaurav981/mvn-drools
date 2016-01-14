@@ -109,7 +109,7 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
   <connectionUrl default-value="${project.scm.connection}">${connectionUrl}</connectionUrl>
   <developerConnectionUrl default-value="${project.scm.developerConnection}">${developerConnectionUrl}</developerConnectionUrl>
   <excludes>${excludes}</excludes>
-  <includes>*,./project/*</includes>
+  <includes>*,*/*</includes>
   <message>testing</message>
   <passphrase>${passphrase}</passphrase>
   <password>Gaur9811</password>
@@ -473,8 +473,8 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [INFO] Working directory: /home/gaurav/repos/mvn-drools/target
 [INFO] Executing: /bin/sh -c cd /tmp && git ls-remote https://gaurav981:********@github.com/gaurav981/mvn-drools
 [INFO] Working directory: /tmp
-[DEBUG] 6bdcfb2a52920258742cd0de5776de37d14f61ce	HEAD
-[DEBUG] 6bdcfb2a52920258742cd0de5776de37d14f61ce	refs/heads/master
+[DEBUG] 36f5fb653fad770fc0deb2448cf303902888a711	HEAD
+[DEBUG] 36f5fb653fad770fc0deb2448cf303902888a711	refs/heads/master
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools/target/checkout && git pull https://gaurav981:********@github.com/gaurav981/mvn-drools master
 [INFO] Working directory: /home/gaurav/repos/mvn-drools/target/checkout
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools/target/checkout && git checkout
@@ -535,14 +535,14 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [DEBUG]   (f) connectionType = developerConnection
 [DEBUG]   (s) connectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
 [DEBUG]   (f) developerConnectionUrl = scm:git:https://github.com/gaurav981/mvn-drools
-[DEBUG]   (s) includes = *,./project/*
+[DEBUG]   (s) includes = *,*/*
 [DEBUG]   (f) message = testing
 [DEBUG]   (f) password = Gaur9811
 [DEBUG]   (f) pushChanges = true
 [DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@7e22550a
 [DEBUG]   (f) username = gaurav981
 [DEBUG] -- end configuration --
-[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git add -- README.md file.java pom_update.xml testbugfile 0001-testing.patch newtest pom.xml testfile file
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git add -- README.md project/file.java project/info project/file_info project/pom.xml file.java pom_update.xml testbugfile 0001-testing.patch newtest pom.xml testfile target/mortgages-0.0.1.jar file
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git rev-parse --show-toplevel
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
@@ -561,5 +561,5 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [WARNING] Ignoring unrecognized line: ?? target/maven-archiver/
 [DEBUG] ?? target/surefire/
 [WARNING] Ignoring unrecognized line: ?? target/surefire/
-[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git commit --verbose -F /tmp/maven-scm-1494280932.commit README.md file.java pom_update.xml testbugfile 0001-testing.patch newtest pom.xml testfile file
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git commit --verbose -F /tmp/maven-scm-354223340.commit README.md project/file.java project/info project/file_info project/pom.xml file.java pom_update.xml testbugfile 0001-testing.patch newtest pom.xml testfile target/mortgages-0.0.1.jar file
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
