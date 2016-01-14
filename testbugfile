@@ -557,3 +557,428 @@ OS name: "linux", version: "3.19.0-43-generic", arch: "amd64", family: "unix"
 [WARNING] Ignoring unrecognized line: ?? target/
 [INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git commit --verbose -F /tmp/maven-scm-727549118.commit README.md file.java pom_update.xml testbugfile 0001-testing.patch pom.xml testfile file
 [INFO] Working directory: /home/gaurav/repos/mvn-drools
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git symbolic-ref HEAD
+[INFO] Working directory: /home/gaurav/repos/mvn-drools
+[INFO] Executing: /bin/sh -c cd /home/gaurav/repos/mvn-drools && git push https://gaurav981:********@github.com/gaurav981/mvn-drools refs/heads/master:refs/heads/master
+[INFO] Working directory: /home/gaurav/repos/mvn-drools
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ mortgages ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:resources' with basic configurator -->
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/gaurav/repos/mvn-drools/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: mortgages:mortgages:0.0.1 @ /home/gaurav/repos/mvn-drools/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/gaurav/repos/mvn-drools/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1914, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, env.PWD=/home/gaurav/repos/mvn-drools, sun.desktop=gnome, env.LANG=en_IN, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_66-b17, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.UPSTART_EVENTS=xsession started, env.XDG_VTNR=7, env.DISPLAY=:0, sonar.jdbc.password=sonar, user.name=gaurav, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=gaurav, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, env.PATH=/home/gaurav/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.XDG_SESSION_DESKTOP=ubuntu, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.UPSTART_JOB=unity7, java.version=1.8.0_66, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-HWz8zjmh9T, sun.arch.data.model=64, sonar.host.url=http://52.74.255.160:9000, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, sonar.jdbc.username=sonar, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=ubuntu, user.country=IN, env.GNOME_KEYRING_PID=, java.home=/usr/lib/jvm/java-8-oracle/jre, java.vm.info=mixed mode, env.LOGNAME=gaurav, os.version=3.19.0-43-generic, sonar.jdbc.driverClassName=com.mysql.jdbc.Driver, path.separator=:, java.vm.version=25.66-b17, env.UPSTART_INSTANCE=, env.LANGUAGE=en_IN:en, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.SESSIONTYPE=gnome-session, env.XDG_SESSION_TYPE=x11, env.JAVA_HOME=/usr/lib/jvm/java-8-oracle, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=en_US, user.home=/home/gaurav, env.JOB=unity-settings-daemon, env.OLDPWD=/home/gaurav/repos/mvn-drools, java.specification.vendor=Oracle Corporation, env.COMP_WORDBREAKS= 	
+"'><;|&(:, env.WINDOWID=71303179, env.VTE_VERSION=3803, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X verify, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/gaurav, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, sonar.jdbc.url=jdbc:mysql://52.74.255.160:3306/sonar?useUnicode=true&characterEncoding=utf8, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/gaurav/.Xauthority, env.SESSION=ubuntu, user.dir=/home/gaurav/repos/mvn-drools, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/gaurav, file.encoding=UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1, java.specification.version=1.8, env.GNOME_KEYRING_CONTROL=, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/gaurav/repos/mvn-drools/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/gaurav/repos/mvn-drools/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mortgages ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.5.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.9.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.9.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.9.1:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.5.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.9.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/gaurav/repos/mvn-drools
+[DEBUG]   (f) buildDirectory = /home/gaurav/repos/mvn-drools/target
+[DEBUG]   (f) classpathElements = [/home/gaurav/repos/mvn-drools/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/gaurav/repos/mvn-drools/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/gaurav/repos/mvn-drools/target/generated-sources/annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/gaurav/repos/mvn-drools/target/classes
+[DEBUG]   (f) outputFileName = mortgages-0.0.1
+[DEBUG]   (f) projectArtifact = mortgages:mortgages:jar:0.0.1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ mortgages ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:testResources' with basic configurator -->
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/gaurav/repos/mvn-drools/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: mortgages:mortgages:0.0.1 @ /home/gaurav/repos/mvn-drools/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/gaurav/repos/mvn-drools/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1914, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, env.PWD=/home/gaurav/repos/mvn-drools, sun.desktop=gnome, env.LANG=en_IN, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_66-b17, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.UPSTART_EVENTS=xsession started, env.XDG_VTNR=7, env.DISPLAY=:0, sonar.jdbc.password=sonar, user.name=gaurav, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=gaurav, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, env.PATH=/home/gaurav/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.XDG_SESSION_DESKTOP=ubuntu, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.UPSTART_JOB=unity7, java.version=1.8.0_66, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-HWz8zjmh9T, sun.arch.data.model=64, sonar.host.url=http://52.74.255.160:9000, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, sonar.jdbc.username=sonar, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=ubuntu, user.country=IN, env.GNOME_KEYRING_PID=, java.home=/usr/lib/jvm/java-8-oracle/jre, java.vm.info=mixed mode, env.LOGNAME=gaurav, os.version=3.19.0-43-generic, sonar.jdbc.driverClassName=com.mysql.jdbc.Driver, path.separator=:, java.vm.version=25.66-b17, env.UPSTART_INSTANCE=, env.LANGUAGE=en_IN:en, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.SESSIONTYPE=gnome-session, env.XDG_SESSION_TYPE=x11, env.JAVA_HOME=/usr/lib/jvm/java-8-oracle, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=en_US, user.home=/home/gaurav, env.JOB=unity-settings-daemon, env.OLDPWD=/home/gaurav/repos/mvn-drools, java.specification.vendor=Oracle Corporation, env.COMP_WORDBREAKS= 	
+"'><;|&(:, env.WINDOWID=71303179, env.VTE_VERSION=3803, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X verify, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/gaurav, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, sonar.jdbc.url=jdbc:mysql://52.74.255.160:3306/sonar?useUnicode=true&characterEncoding=utf8, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/gaurav/.Xauthority, env.SESSION=ubuntu, user.dir=/home/gaurav/repos/mvn-drools, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/gaurav, file.encoding=UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1, java.specification.version=1.8, env.GNOME_KEYRING_CONTROL=, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/gaurav/repos/mvn-drools/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/gaurav/repos/mvn-drools/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mortgages ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.5.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.5.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/gaurav/repos/mvn-drools
+[DEBUG]   (f) buildDirectory = /home/gaurav/repos/mvn-drools/target
+[DEBUG]   (f) classpathElements = [/home/gaurav/repos/mvn-drools/target/test-classes, /home/gaurav/repos/mvn-drools/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/gaurav/repos/mvn-drools/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /home/gaurav/repos/mvn-drools/target/generated-test-sources/test-annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/gaurav/repos/mvn-drools/target/test-classes
+[DEBUG]   (f) outputFileName = mortgages-0.0.1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ mortgages ---
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.10:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.10:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.10:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.10:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test (scope managed from compile)
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.10
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.10:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.10:test' with basic configurator -->
+[DEBUG]   (s) basedir = /home/gaurav/repos/mvn-drools
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/gaurav/repos/mvn-drools/target/classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =        id: local
+      url: file:///home/gaurav/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.10:, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.10:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.10:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.10:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:2.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile}
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) project = MavenProject: mortgages:mortgages:0.0.1 @ /home/gaurav/repos/mvn-drools/pom.xml
+[DEBUG]   (s) projectArtifactMap = {}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/gaurav/repos/mvn-drools/target/surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /home/gaurav/repos/mvn-drools/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/gaurav/repos/mvn-drools/src/test/java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/gaurav/repos/mvn-drools
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/gaurav/repos/mvn-drools/target/surefire-reports
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.10:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.10:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar Scope: compile
+[DEBUG] Setting system property [user.dir]=[/home/gaurav/repos/mvn-drools]
+[DEBUG] Setting system property [localRepository]=[/home/gaurav/.m2/repository]
+[DEBUG] Setting system property [basedir]=[/home/gaurav/repos/mvn-drools]
+[DEBUG] Using JVM: /usr/lib/jvm/java-8-oracle/jre/bin/java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit3:jar:2.10:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.10:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar Scope: test
+[DEBUG] test classpath classpath:
+[DEBUG]   /home/gaurav/repos/mvn-drools/target/test-classes
+[DEBUG]   /home/gaurav/repos/mvn-drools/target/classes
+[DEBUG] provider classpath classpath:
+[DEBUG]   /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+[DEBUG]   /home/gaurav/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Forking command line: /bin/sh -c cd /home/gaurav/repos/mvn-drools && /usr/lib/jvm/java-8-oracle/jre/bin/java -jar /home/gaurav/repos/mvn-drools/target/surefire/surefirebooter2871303161932971714.jar /home/gaurav/repos/mvn-drools/target/surefire/surefire4249162149939105056tmp /home/gaurav/repos/mvn-drools/target/surefire/surefire1107585179373329782tmp
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mortgages ---
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /home/gaurav/repos/mvn-drools/target/classes
+[DEBUG]   (f) defaultManifestFile = /home/gaurav/repos/mvn-drools/target/classes/META-INF/MANIFEST.MF
+[DEBUG]   (f) finalName = mortgages-0.0.1
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /home/gaurav/repos/mvn-drools/target
+[DEBUG]   (f) project = MavenProject: mortgages:mortgages:0.0.1 @ /home/gaurav/repos/mvn-drools/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f19b8b3
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] isUp2date: false (Resource with newer modification date found.)
+[INFO] Building jar: /home/gaurav/repos/mvn-drools/target/mortgages-0.0.1.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/mortgages/
+[DEBUG] adding directory META-INF/maven/mortgages/mortgages/
+[DEBUG] adding entry META-INF/maven/mortgages/mortgages/pom.xml
+[DEBUG] adding entry META-INF/maven/mortgages/mortgages/pom.properties
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.553s
+[INFO] Finished at: Wed Jan 13 19:44:50 IST 2016
+[INFO] Final Memory: 11M/208M
+[INFO] ------------------------------------------------------------------------
